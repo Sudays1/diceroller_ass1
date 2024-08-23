@@ -1,6 +1,7 @@
 body {
     background-color: darkgrey;
 }
+
 h1{
     font-size: 60px;
     text-align: center;
@@ -13,6 +14,7 @@ h1{
     margin-left: 700px;
     margin-right: 665px;
 }
+
 p {
     font-size: 35px;
     font-family: "Agency FB";
