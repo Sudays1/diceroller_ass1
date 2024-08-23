@@ -11,8 +11,7 @@ h1{
     border-radius: 5px;
     border-width: 5px;
         background: gray;
-    margin-left: 700px;
-    margin-right: 665px;
+
 }
 
 p {
@@ -25,7 +24,36 @@ p {
     border-radius: 5px;
     border-width: 5px;
     background: gray;
-    margin-left: 700px;
-    margin-right: 665px;
+
+}
+
+label {
+    font-size: 35px;
+    font-family: "Agency FB";
+    border: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    background: gray;
+    margin-left: 450px;
+
+}
+
+select {
+    font-size: 35px;
+    font-family: "Agency FB";
+}
+
+input {
+    font-size: 35px;
+    font-family: "Agency FB";
+}
+
+button {
+    font-size: 35px;
+    font-family: "Agency FB";
+    margin-left: 545px;
+    margin-top: 150px;
+
 }
 
