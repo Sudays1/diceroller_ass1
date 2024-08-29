@@ -28,7 +28,7 @@
          <h1>Dice Roller</h1>
         <label for="dice-type">Choose dice type:</label>
 
-        <select id="dice-type">
+        <select id="dice-type" py-change ="select_face_option">
             <option value="coin">Coin</option>
             <option value="d4">d4</option>
             <option value="d6" selected>d6</option>
@@ -39,8 +39,8 @@
         </select>
         <label for="dice-num">Number of rolls:</label>
         <input type="number" id="dice-num" value="1" min="1">
-        <button onclick="roll_all_dice(event)">Roll Dice</button>
-        <button onclick="clear_history(event)">Clear History</button>
+        <button py-click="roll_all_dice">Roll Dice</button>
+        <button py-click="clear_history">Clear History</button>
         <div id="roll-history"></div>
 
         <script type="py" src="main.py" config="./pyscript.json"></script>
